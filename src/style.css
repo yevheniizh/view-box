@@ -1,19 +1,45 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
 
 html,
-body
-{
+body {
     overflow: hidden;
 }
 
-.webgl
-{
+button {
+    border: none;
+    outline: none;
+}
+
+/*******/
+
+.webgl {
     position: fixed;
     top: 0;
     left: 0;
     outline: none;
+}
+
+.view-controls {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+}
+
+.view-home {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    color: white;
+    font-size: 20px;
+    background-color: unset;
+    cursor: pointer;
+}
+
+.view-box {
+    width: 200px;
+    height: 200px;
 }
